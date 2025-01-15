@@ -1,0 +1,27 @@
+.message-form {
+    display: flex; /* Flexbox para alinhar os itens */
+    margin-top: 10px; /* Espaço acima do formulário */
+}
+
+.message-input {
+    flex: 1; /* Ocupa o espaço disponível */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do campo de entrada */
+    border-radius: 5px; /* Cantos arredondados */
+    margin-right: 10px; /* Espaçamento à direita */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.send-button {
+    padding: 10px 15px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.send-button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
